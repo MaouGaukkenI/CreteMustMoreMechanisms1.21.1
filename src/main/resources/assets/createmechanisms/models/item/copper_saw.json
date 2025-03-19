@@ -1,0 +1,24 @@
+{
+	"parent": "minecraft:item/handheld",
+	"loader": "neoforge:separate_transforms",
+	"base": {
+		"parent": "createmechanisms:item/copper_saw_2d"
+	},
+	"perspectives": {
+		"thirdperson_righthand": {
+			"parent": "createmechanisms:item/copper_saw_3d"
+		},
+		"thirdperson_lefthand": {
+			"parent": "createmechanisms:item/copper_saw_3d"
+		},
+		"firstperson_righthand": {
+			"parent": "createmechanisms:item/copper_saw_3d"
+		},
+		"firstperson_lefthand": {
+			"parent": "createmechanisms:item/copper_saw_3d"
+		},
+		"ground": {
+			"parent": "createmechanisms:item/copper_saw_3d"
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#createmechanisms:sawing_tools",
+    {
+      "id": "#forge:tools",
+      "required": false
+    }
+  ]
+}
