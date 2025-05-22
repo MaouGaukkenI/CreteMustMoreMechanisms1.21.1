@@ -16,8 +16,10 @@ public class CreateDirectories {
     public void createDirectories(boolean generateRecipes) {
 
         // Defines the custom folders
-        File baseFolder = new File(Minecraft.getInstance().gameDirectory, "kubejs/server_scripts/CreateMechanisms/Base");
-        File Ae2DependenciesFolder = new File(Minecraft.getInstance().gameDirectory, "kubejs/server_scripts/CreateMechanisms/Ae2Dependencies");
+        File gameDirectory = new File(".");
+
+        File baseFolder = new File(gameDirectory, "kubejs/server_scripts/CreateMechanisms/Base");
+        File Ae2DependenciesFolder = new File(gameDirectory, "kubejs/server_scripts/CreateMechanisms/Ae2Dependencies");
 
         // Creates the folders if they do not exist
         if (!Ae2DependenciesFolder.exists()) {
@@ -87,26 +89,51 @@ public class CreateDirectories {
      * @return true if AE2 is installed, false otherwise.
      */
     public static boolean isAE2Installed() {
-        // Gets the "mods" folder inside the game directory
-        File modsFolder = new File(Minecraft.getInstance().gameDirectory, "mods");
-        String nameAE2 = "appliedenergistics";
+        String ae2Name = "appliedenergistics";
+        File modsFolder = new File(".", "mods");
 
-        // Checks if the folder exists and is a directory
+        // 1. Verifica se AE2 está na pasta mods
         if (modsFolder.exists() && modsFolder.isDirectory()) {
-            // Lists all files inside the mods folder
             File[] files = modsFolder.listFiles();
-
             if (files != null) {
                 for (File file : files) {
-                    // If the file name contains "appliedenergistics", return true
-                    if (file.getName().toLowerCase().contains(nameAE2)) {
+                    if (file.getName().toLowerCase().contains(ae2Name)) {
                         return true;
                     }
                 }
             }
         }
+
+        // 2. Verifica se existe qualquer arquivo relevante com o nome "appliedenergistics" na raiz, config, scripts ou outros locais
+        File rootDir = new File(".");
+        String[] foldersToCheck = {
+                ".",                // Raiz
+                "config",           // Configurações
+                "kubejs",           // KubeJS
+                "scripts",          // Outros scripts
+                "server_scripts",   // Scripts do servidor
+                "client_scripts"    // Scripts do cliente
+        };
+
+        for (String folderName : foldersToCheck) {
+            File folder = new File(rootDir, folderName);
+            if (folder.exists() && folder.isDirectory()) {
+                File[] files = folder.listFiles();
+                if (files != null) {
+                    for (File file : files) {
+                        if (file.getName().toLowerCase().contains(ae2Name)) {
+                            return true;
+                        }
+                    }
+                }
+            }
+        }
+
+        // Se nada for encontrado
         return false;
     }
+
+
 
     /**
      * Deletes a folder and all its contents recursively.
