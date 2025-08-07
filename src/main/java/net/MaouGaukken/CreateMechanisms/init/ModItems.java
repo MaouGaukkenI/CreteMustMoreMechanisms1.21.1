@@ -23,6 +23,12 @@ public class ModItems {
     public static final DeferredItem<Item> ZINC_MECHANISM = REGISTRY.register("zinc_mechanism", ZincMechanismItem::new);
     public static final DeferredItem<Item> COMPUTING_MECHANISM = REGISTRY.register("computing_mechanism", ComputingMechanismItem::new);
     public static final DeferredItem<Item> ENDER_MECHANISM = REGISTRY.register("ender_mechanism", EnderMechanismItem::new);
+    public static final DeferredItem<Item> REDSTONE_MECHANISM = REGISTRY.register("redstone_mechanism", RedstoneMechanismItem::new);
+    public static final DeferredItem<Item> BASIC_ENERGY_MECHANISM = REGISTRY.register("basic_energy_mechanism", BasicEnergyMechanismItem::new);
+    public static final DeferredItem<Item> IRON_ENERGY_MECHANISM = REGISTRY.register("iron_energy_mechanism", IronEnergyMechanismItem::new);
+    public static final DeferredItem<Item> GOLDEN_ENERGY_MECHANISM = REGISTRY.register("golden_energy_mechanism", GoldenEnergyMechanismItem::new);
+    public static final DeferredItem<Item> DIAMOND_ENERGY_MECHANISM = REGISTRY.register("diamond_energy_mechanism", DiamondEnergyMechanismItem::new);
+    public static final DeferredItem<Item> ENDERIAM_ENERGY_MECHANISM = REGISTRY.register("enderiam_energy_mechanism", EnderiamEnergyMechanismItem::new);
 
     // Registering incomplete mechanism items
     public static final DeferredItem<Item> INCOMPLETE_WOODEN_MECHANISM = REGISTRY.register("incomplete_wooden_mechanism", IncompleteWoodenMechanismItem::new);
@@ -32,12 +38,20 @@ public class ModItems {
     public static final DeferredItem<Item> INCOMPLETE_ADVANCED_PRECISION_MECHANISM = REGISTRY.register("incomplete_advanced_precision_mechanism", IncompleteAdvancedPrecisionMechanismItem::new);
     public static final DeferredItem<Item> INCOMPLETE_COMPUTING_MECHANISM = REGISTRY.register("incomplete_computing_mechanism", IncompleteComputingMechanismItem::new);
     public static final DeferredItem<Item> INCOMPLETE_ENDER_MECHANISM = REGISTRY.register("incomplete_ender_mechanism", IncompleteEnderMechanismItem::new);
+    public static final DeferredItem<Item> INCOMPLETE_REDSTONE_MECHANISM = REGISTRY.register("incomplete_redstone_mechanism", IncompleteRedstoneMechanismItem::new);
+    public static final DeferredItem<Item> INCOMPLETE_BASIC_ENERGY_MECHANISM = REGISTRY.register("incomplete_basic_energy_mechanism", IncompleteBasicEnergyMechanismItem::new);
+    public static final DeferredItem<Item> INCOMPLETE_IRON_ENERGY_MECHANISM = REGISTRY.register("incomplete_iron_energy_mechanism", IncompleteIronEnergyMechanismItem::new);
+    public static final DeferredItem<Item> INCOMPLETE_GOLDEN_ENERGY_MECHANISM = REGISTRY.register("incomplete_golden_energy_mechanism", IncompleteGoldenEnergyMechanismItem::new);
+    public static final DeferredItem<Item> INCOMPLETE_DIAMOND_ENERGY_MECHANISM = REGISTRY.register("incomplete_diamond_energy_mechanism", IncompleteDiamondEnergyMechanismItem::new);
+    public static final DeferredItem<Item> INCOMPLETE_ENDERIAM_ENERGY_MECHANISM = REGISTRY.register("incomplete_enderiam_energy_mechanism", IncompleteEnderiamEnergyMechanismItem::new);
 
     // Registering other raw materials and items
     public static final DeferredItem<Item> RUBBER = REGISTRY.register("rubber", RubberItem::new);
     public static final DeferredItem<Item> CURED_RUBBER = REGISTRY.register("cured_rubber", CuredRubberItem::new);
     public static final DeferredItem<Item> BRONZE = REGISTRY.register("bronze", BronzeItem::new);
     public static final DeferredItem<Item> ENDERIAM_BUCKET = REGISTRY.register("enderiam_bucket", EnderiamItem::new);
+    public static final DeferredItem<Item> ENERGY_CELL = REGISTRY.register("energy_cell", EnergyCellItem::new);
+    public static final DeferredItem<Item> ENDERIAM_CELL = REGISTRY.register("enderiam_cell", EnderiamCellItem::new);
 
     // Registering saw items with different materials and tool attributes
     public static final DeferredItem<SawItem> IRON_SAW = REGISTRY.register("iron_saw",

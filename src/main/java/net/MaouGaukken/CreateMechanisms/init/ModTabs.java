@@ -33,6 +33,12 @@ public class ModTabs {
                         tabData.accept(ModItems.ZINC_MECHANISM.get());
                         tabData.accept(ModItems.COMPUTING_MECHANISM.get());
                         tabData.accept(ModItems.ENDER_MECHANISM.get());
+                        tabData.accept(ModItems.REDSTONE_MECHANISM.get());
+                        tabData.accept(ModItems.BASIC_ENERGY_MECHANISM.get());
+                        tabData.accept(ModItems.IRON_ENERGY_MECHANISM.get());
+                        tabData.accept(ModItems.GOLDEN_ENERGY_MECHANISM.get());
+                        tabData.accept(ModItems.DIAMOND_ENERGY_MECHANISM.get());
+                        tabData.accept(ModItems.ENDERIAM_ENERGY_MECHANISM.get());
                     }).build());
 
     /**
@@ -54,6 +60,8 @@ public class ModTabs {
                         tabData.accept(ModItems.COPPER_SAW.get());
                         tabData.accept(ModItems.IRON_SAW.get());
                         tabData.accept(ModItems.DIAMOND_SAW.get());
+                        tabData.accept(ModItems.ENERGY_CELL.get());
+                        tabData.accept(ModItems.ENDERIAM_CELL.get());
                     })
                     .withTabsBefore(MECHANISMS.getId()) // Ensures this tab appears after the Mechanisms tab
                     .build());

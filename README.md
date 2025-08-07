@@ -28,6 +28,12 @@ Rubber comes in two forms: raw and cured. Cured rubber is essential for creating
 
 Bronze is a resistant and essential material in thermal engineering, being used exclusively in the creation of the Heat Mechanism. A vital component for those looking to improve their machines and energy systems!
 
+### 4. **Energy Cell** ⚡📦
+A basic cell with moderate electrical energy storage capacity, perfect for local or mobile systems. Easy to manufacture, it's the foundation of any early-game power grid.
+
+### 5. **Enderiam Cell** 🌌🔋
+The advanced version of the power cell. Made with rare materials and Ender technology, it is capable of storing large amounts of energy and transmitting it between dimensions.
+Essential for systems operating in large interdimensional factories, ensuring stability, performance, and connectivity between worlds.
 ---
 
 ## New Mechanisms ⚙️✨
@@ -63,6 +69,31 @@ The Computing Mechanism is the basis for item control systems, being a component
 The **Ender Mechanism** was created to allow for the **instantaneous transfer and manipulation of resources** across dimensions. While the idea of ​​instantly moving resources from anywhere may seem futuristic, the **Ender Mechanism** enables the creation of **machines that traverse dimensions**, transferring items and energies between them.  
 The effectiveness and capabilities of these machines depend on your **ingenuity and design**, allowing you to create interdimensional transportation and automation systems based on your creativity and proper use of this mechanism. 🌍✨  
 This opens up a range of possibilities for those who want to integrate and automate processes between different dimensions in Minecraft!
+
+### 8. **Redstone Mechanism** 🔴⚡
+The **Redstone Mechanism** is a specialized component for **automation and logic control systems**. It serves as the foundation for machines that utilize **advanced Redstone** signals, making it ideal for creating smart devices, binary logic systems, flow management, and highly **customizable automation**.
+
+If you want to control your factory with precise signals, timers, sensors, or conditional logic, the Redstone Mechanism will be your essential tool! 🧠⚡
+
+### 9. ⚡**Energy Mechanisms** 
+These mechanisms represent the core components of any machine that relies on electrical power. Each version is more powerful than the last, enabling the creation of scalable and highly efficient power grids.
+
+#### 1. **Basic Energy Mechanism** 🔋⚙️
+The ideal entry point for those looking to get started in the world of electrical machines. It provides the ability to power simple devices with a stable but limited power flow.
+Perfect for small systems or initial testing.
+
+#### 2. **Iron Energy Mechanism** 🛠️⚙️
+An improved, iron-based version that supports greater power demands. Ideal for mid-range industrial machines and systems requiring greater autonomy and robustness.
+
+#### 3.**Golden Energy Mechanism** ✨⚙️
+With improved conduction and stability, the gold mechanism offers superior energy transmission efficiency. Suitable for larger networks or factories with multiple sectors operating simultaneously.
+
+#### 4. **Diamond Energy Mechanism** 💎⚙️
+Highly efficient and durable, the Diamond Energy Mechanism is designed for high-performance industrial environments. It provides energy with minimal loss and excellent manageability, making it a cornerstone for complex, integrated systems.
+
+#### 5. **Enderiam Energy Mechanism** 🌌⚙️
+The pinnacle of energy technology in the mod. Utilizing Ender properties, this mechanism allows for long-distance and cross-dimensional energy transmission, in synergy with the Ender Mechanism.
+Ideal for interdimensional factories and energy systems that require absolute mobility, range, and reliability.
 
 ---
 
